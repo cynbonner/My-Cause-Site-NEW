@@ -1,0 +1,59 @@
+html {
+  font-family: sans-serif;
+  color: #250745;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+
+.jumbotron { 
+    background-color: #9FDADF; /* s/b Green ??? need to adjust color */
+    color: #000;  /* change lettering #fff ?*/
+}
+
+
+
+
+
+
+a {
+  background-color: transparent;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
+
+h1 {
+  margin: .67em 0;
+  font-size: 2em;
+}
+
+small {
+  font-size: 80%;
+}
+
+img {
+  border: 0;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+figure {
+  margin: 1em 40px;
+}
+hr {
+  height: 0;
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
+}
+pre {
+  overflow: auto;
+}
+
+textarea {
+  margin: 0;
+
